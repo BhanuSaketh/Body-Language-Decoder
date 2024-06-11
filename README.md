@@ -58,15 +58,7 @@ This project uses Mediapipe Holistic, an ML pipeline that provides features to d
 
     Ensure you have a CSV file (`coords.csv`) containing landmark coordinates and their corresponding classes. The dataset should have columns for each coordinate and a 'class' column for labels.
 
-2. **Train the model:**
-
-    Run the script to train machine learning models and save the RandomForestClassifier model to a file:
-
-    ```bash
-    python train_model.py
-    ```
-
-3. **Real-time prediction:**
+2. **Real-time prediction:**
 
     Run the script to start the webcam feed and make real-time body language predictions:
 
